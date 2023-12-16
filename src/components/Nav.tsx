@@ -11,8 +11,11 @@ export default function Nav() {
       <div>
         <Image src="/logo.png" alt="Tailine Lash & Nails" width={80} height={80} />
       </div>
-      <div>
-        <h1>Menu</h1>
+      <div className="flex gap-10 text-bege-100  uppercase ">
+        <a className="hover:text-bege-400" href="/">Início</a>
+        <a className="hover:text-bege-400" href="/">Serviços</a>
+        <a className="hover:text-bege-400" href="/">Galeria</a>
+        <a className="hover:text-bege-400" href="/">Contato</a>
       </div>
     </div>
   );
