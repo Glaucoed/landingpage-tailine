@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function ServicesContent() {
   return (
-    <div className="bg-vermelho-500 lg:p-10 py-8 px-4 flex flex-col gap-14 text-center">
+    <div className="bg-vermelho-500 lg:p-10 py-8 px-4 flex flex-col gap-14 text-center" id='servicos'>
       <h1 className="lg:w-1/2 mx-auto text-center lg:text-4xl font-extrabold text-bege-100 text-xl ">Nossos serviços</h1>
       <div className='w-1/2 mx-auto flex lg:flex-row flex-col lg:gap-0 gap-10 justify-between'>
         <div className="border-8 border-bege-100 bg-[url('/cilios.jpg')] bg-cover h-96 w-[230px]">
